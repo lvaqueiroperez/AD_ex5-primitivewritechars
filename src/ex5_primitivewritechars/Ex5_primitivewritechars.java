@@ -37,11 +37,11 @@ public class Ex5_primitivewritechars {
         DataInputStream leerData = null;
         String lecturas = "";
 
-        escribir = new FileOutputStream("/home/oracle/Desktop/ex4/texto4.txt");
+        escribir = new FileOutputStream("/home/oracle/Desktop/ex5/texto4.txt");
         escribirBuffer = new BufferedOutputStream(escribir);
         escribirData = new DataOutputStream(escribirBuffer);
 
-        leer = new FileInputStream("/home/oracle/Desktop/ex4/texto4.txt");
+        leer = new FileInputStream("/home/oracle/Desktop/ex5/texto4.txt");
         leerBuffer = new BufferedInputStream(leer);
         leerData = new DataInputStream(leerBuffer);
 
