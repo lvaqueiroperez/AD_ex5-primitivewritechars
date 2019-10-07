@@ -25,8 +25,8 @@ public class Ex5_primitivewritechars {
          metodo readChar().
          */
         /*
-        PONER BIEN LA SALIDA, EJERCICIO HECHO
-        */
+         PONER BIEN LA SALIDA, EJERCICIO HECHO
+         */
         //escritura
         FileOutputStream escribir = null;
         BufferedOutputStream escribirBuffer = null;
@@ -55,7 +55,14 @@ public class Ex5_primitivewritechars {
         //readChar solo lee un caracter cada vez que se llama
         for (int i = 0; i < cadena.length(); i++) {
             System.out.print(leerData.readChar());
-            
+
+        }
+
+        System.out.println("\n");
+
+        for (int i = 0; i < cadena.length(); i++) {
+            System.out.print(leerData.readChar());
+
         }
 
         leerData.close();
